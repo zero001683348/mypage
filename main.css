@@ -1,0 +1,160 @@
+
+
+body{
+    background-color: #f8f8fa;
+    font-family: 'Roboto', sans-serif;
+}
+.blurEffect{
+    backdrop-filter: blur(10px);
+}
+
+.body{
+    max-width: 520px;
+    margin: 100px auto ;
+    box-sizing: border-box;
+    position: relative;
+    padding: 66px 0;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: #D7BCFC;
+    position: absolute;
+    border-radius: 100%;
+    top: 200px;
+}
+
+.circle2{
+    width: 150px;
+    height: 150px;
+    background-color:#D7BCFC;
+    position: absolute;
+    border-radius: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.wrap {
+    width: 375px;
+    margin: 0 auto ;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 34px 24px ;
+    box-sizing: border-box;
+}
+
+.wrap .inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrap .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.wrap .profile{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    background-image: url(./img/Profile.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 5px 10px rgba(112, 0, 255, 0.1);
+}
+
+.main__title{
+    color: #333;
+    font-size: 20px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.sub__title{
+    color: #767676;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+.wrap ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.wrap li a{
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #7000FF;
+    margin-bottom: 16px;
+}
+.wrap li a:last-child{
+    margin-bottom: 0px;
+}
+
+.wrap li a:hover{
+    background-color: #7000FF;
+    color: #fff;
+}
+
+#copybtn{
+    width: 345px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #7000FF;
+    margin-bottom: 16px;
+    cursor: pointer;
+    position: relative;
+}
+
+#copybtn:hover{
+    background-color: #7000FF;
+    color: #fff;
+}
+
+#copybtn::after{
+    content: "Email";
+    
+}
+#copybtn:hover::after{
+    content: "복사하기";
+}
+
+
+
+.wrap .logo{
+    background: url(./img/logo.png);
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 15px;
+    margin-top: 32px;
+}

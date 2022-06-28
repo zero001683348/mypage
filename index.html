@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Design from Zero">
+    <meta property="og:description" content="Personal profile page">
+    <meta property="og:image" content="img/logo__zero.png">
+    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
+    <title>Design form Zero</title>
+
+    <link rel="icon" href="./favicon.png">
+    <link rel="apple-thouch-icon" href="./favicon.png">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" media="(max-width: 1024px)" href="css/main_medium.css">
+  <link rel="stylesheet" media="(max-width: 768px)" href="css/main_small.css">
+
+   
+    
+</head>
+<body>
+    <div class="body ">
+
+        
+        <div class="circle"></div>
+        <div class="circle2"></div>
+        
+        
+        <div class="wrap blurEffect">
+            
+           
+            <div class="inner">
+                
+                <div class="main ">
+                    <div class="profile"></div>
+                    <h1 class="main__title">르탄이</h1>
+                    <p class="sub__title">프로덕트 디자이너를 꿈꿉니다.<br>Design from Zero</p>
+                </div>
+
+                <ul class="list">
+                    <li>
+                        <a target="" href="./sub.html">Portfolio</a>
+                        <a target="_blank" href="https://www.behance.net/cyk">Behance</a>
+                        <a target="_blank" href="https://blog.naver.com/qwertyuiop1106">Blog</a>
+                        <button id="copybtn" onclick="copyToClipboard('qwert8825-@naver.com');" title="주소복사"></button>
+                    </li>
+                </ul>
+
+                <div class="logo"></div>
+            </div>
+
+        </div>  
+    </div>
+
+    <script>
+        function copyToClipboard(val) {
+        var t = document.createElement("textarea");
+        document.body.appendChild(t);
+        t.value = val;
+        t.select();
+        document.execCommand('copy');
+        document.body.removeChild(t);
+        alert('주소를 복사하였습니다');
+        }
+
+    </script>
+
+ 
+</body>
+</html>

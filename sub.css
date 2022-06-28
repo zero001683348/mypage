@@ -1,0 +1,160 @@
+body{
+    background-color: #f8f8fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+  }
+
+.sub-wrap{
+    position: relative;
+    background-image: url("./img/Bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    padding: 160px 0;
+    display: flex;
+}
+
+.sub-wrap .profile{
+    width: 40px;
+    height: 40px;
+    background: url(./img/Profile.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    position: absolute;
+    top: 32px;
+    right: 24px;
+    
+}
+
+.sub-wrap .title{
+    position: absolute;
+    margin-left: 24px;
+    bottom: 32px;
+}
+
+.main__title{
+    font-size: 24px;
+    line-height: 1.25;
+    margin-bottom: 8px;
+}
+
+.sub__title{
+    color: #767676;
+    font-size: 16px;
+}
+
+/* contents */
+.contents{
+    padding: 32px 24px;
+}
+
+.contents .con{
+    display: block;
+    margin-bottom: 56px;
+}
+
+.contents .body__title{
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 8px;
+}
+
+.contents .caption__title{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.caption__title ul{
+    margin-top: 16px;
+    color: #7000FF;
+}
+
+.caption__title li{
+    font-weight: 300;
+    margin-left: 32px;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+.caption__title ul::before {
+    content: "👉";
+    padding-inline-start: 1ch;
+}
+
+
+/* 3D design-section */
+.card-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 250px;
+    grid-column-gap: 16px;
+    grid-row-gap: 18px;
+
+}
+
+.card{
+    background-color: #f8f8fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 4px;
+}
+
+.card .thumb{
+    border-radius: 8px 8px 0 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 70%;
+}
+
+.card-group .card .thumb{
+    background-image: url(./img//contents/3D-favorite.png);
+}
+
+.card-group .card2 .thumb{
+    background-image: url(./img//contents/3D-404.png);
+}
+
+.card article{
+    padding: 16px;
+}
+
+.card h3{
+    color: #333;
+    margin-bottom: 8px;
+
+}
+.card span{
+    color: #767676;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+
+/* write-section */
+.card-group2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 500px;
+    grid-row-gap: 24px;
+  }
+
+.card .thumb-big{
+    height: 84%;
+}
+
+.card .write-1{
+    background-image: url(./img/contents/write-config.png);
+}
+
+.card .write-2{
+    background-image: url(./img/contents/write-ohouse.png);
+}
+
